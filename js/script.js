@@ -17,10 +17,7 @@ $(document).ready(function() {
     $('.js--scroll-to-regist').click(function () {
        $('html, body').animate({scrollTop: $('.js--section-regist').offset().top}, 1000); 
     });
-    
-    $('.js--scroll-to-start').click(function () {
-       $('html, body').animate({scrollTop: $('.js--section-features').offset().top}, 1000); 
-    });
+
     
     
     /* Navigation scroll */
